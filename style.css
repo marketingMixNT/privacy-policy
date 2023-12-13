@@ -9,17 +9,15 @@ body{
 
 .table {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: white;
     border-collapse: collapse;
-    border-width: 2px;
-    border-color: #000000;
-    border-style: solid;
+    border: 1px solid black;
     color: #000000;
     text-align:center;
     margin-top:1em
   }
   
-  table.table td, table.table th {
+  .table td,.table th {
     border-width: 1px;
     border-color: #000000;
     border-style: solid;
@@ -55,7 +53,13 @@ body{
     
 }
 
-.inner-table td {
+/* .inner-table td {
     padding: 0; 
     border:none
+} */
+
+.inner-table td {
+    border: none;
+    padding: .6em;
 }
+
